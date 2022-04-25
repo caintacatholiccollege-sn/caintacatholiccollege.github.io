@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0"> 
+    <title>Cainta Catholic College</title>
+    <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="Images/seal.png"></a>
+        <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="admission.html">ADMISSION</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+    <h1>Blog</h1>
+    
+</section>
+    
+<!-------blog page content------->
+    
+<section class="blog-content">
+    
+    <div class="row">
+        <div class="blog-left">
+            <img src="images/mandv.jpg">
+            <h2>CCC Hymn</h2>
+            <p>Alma Mater dear all hail to thee<br>
+            We will sing your praise and glory<br>
+            You have led and made us fight for right<br>
+            Through your portals our future smiles so bright.</p>
+            <br>
+            <p>We will praise thy name O CCC<br>
+We will ever stand on defense for it<br>
+We will sing thy praise dear CCC<br>
+Through our deed we'll prove we are brave and fit.</p>
+            <br>
+            <p>We fear not tomorrow<br>
+We shall not fear the rain<br>
+And though we be met with sorrow<br>
+We shall sing on and not feel the pain</p>
+            <br>
+            <p>And when our paths should separate<br>
+We'll have a heart for any fate<br>
+We'll have sweet memories that cannot die<br>
+After we utter that jeweled word goodbye.</p>
+            <br>
+            <p>Had God keep watch 'tween thee and us<br>
+And keep us ever near to Him<br>
+Alma Mater dear all hail to thee<br>
+We will sing your praise and glory.</p>
+            <br>
+            <p>Ever upward and onward we will strive<br>
+Loyalty and truth in our hearts will thrive<br>
+God blesses thee … He blesses us<br>
+Alma Mater!</p>
+            <br>
+            
+            <div class="comment-box">
+                
+                <h3>Leave a comment</h3>
+                
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter name">
+                    <input type="email" placeholder="Enter email">
+                    <textarea rows="5" placeholder="Your comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                </form>
+            </div>
+            
+        </div>
+        <div class="blog-right">
+            <h3>Calendar of Activities</h3>
+            <div>
+                <img src="Images/calendar.png">
+            </div>
+        </div>
+    </div>
+    
+</section>
+    
+<!-------footer------->
+    
+<section class="footer">
+    <h4>About us</h4>
+    <p>Cainta Catholic College<br>
+A. Bonifacio Ave. Poblacion, Cainta, Rizal, 1900<br>
+Tel No.: (8)643-2000<br>
+ccc@caintacatholiccollege.com</p>
+    
+    <div class="icons">
+         <i class="fa fa-facebook"></i>
+         <i class="fa fa-twitter"></i>
+         <i class="fa fa-instagram"></i>
+         <i class="fa fa-linkedin"></i>
+    </div>
+    
+    <p>Made with <i class="fa fa-heart-o"></i> by Samantha Nicole R. Perez<br>Credits to Regina Lucis Social Communications<br> for the pictures</p>
+    
+</section>
+    
+<!-------Javascript for toggle menu------->   
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+     function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
